@@ -1,0 +1,87 @@
+/* Start Pagination CSS */
+/* Layout 1 */
+.cbdb-pagination {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 50px;
+}
+.cbdb-pagination-wrapper .cbdb-pagination a,
+.cbdb-pagination-wrapper .cbdb-pagination span {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    color: #000;
+    padding: 4px 13px;
+    transition: all linear .3s;
+}
+.cbdb-pagination.layout-1 span {
+    color: #fff;
+    background: #6978f4;
+    border-radius: 5px;
+}
+.cbdb-pagination.layout-1 a.page-numbers:hover:not(.cbdb-pagination.layout-1 .next:hover, .cbdb-pagination.layout-1 .prev:hover) {
+    color: #fff;
+    background: #6978f4;
+    border-radius: 5px;
+}
+.cbdb-pagination.layout-1 .next:hover,
+.cbdb-pagination.layout-1 .prev:hover {
+    color: #6978f4;
+    text-decoration: underline;
+}
+
+/* Layout 2 */
+.cbdb-pagination.layout-2 a,
+.cbdb-pagination.layout-2 span {
+    border-radius: 50px;
+    border: 1px solid rgba(0,0,0,.05);
+}
+.cbdb-pagination.layout-2 span,
+.cbdb-pagination.layout-2 a.page-numbers:hover {
+    color: #fff;
+    background: #6978f4;
+}
+
+/* Layout 3 */
+.cbdb-pagination.layout-3 {
+    gap: 10px;
+}
+.cbdb-pagination.layout-3 a,
+.cbdb-pagination.layout-3 span {
+    padding: 5px 30px;
+    background: #fff;
+    color: #6978f4;
+    border-radius: 25px;
+    box-shadow: 0px 5px 10px 0px rgb(0 0 0 / 10%);
+}
+.cbdb-pagination.layout-3 span {
+    color: #fff;
+    background: #6978f4;
+}
+.cbdb-pagination.layout-3 span,
+.cbdb-pagination.layout-3 a.page-numbers:hover {
+    color: #fff;
+    background: #6978f4;
+}
+
+/* Layout 4 */
+.cbdb-pagination.layout-4 .page-numbers {
+    padding: 5px 30px;
+    color: #6978f4;
+    position: relative;
+    border: 1px solid #6978f4;
+    border-radius: 5px 25px;
+    box-shadow: 0px 5px 10px 0px rgb(0 0 0 / 10%);
+    transition: all linear .3s;
+}
+.cbdb-pagination.layout-4 a:hover,
+.cbdb-pagination.layout-4 span.page-numbers {
+    color: #fff;
+    background: #6978f4;
+}
+/* End Pagination CSS */

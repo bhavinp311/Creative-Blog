@@ -1,0 +1,208 @@
+/* Start Masonry CSS */
+.cbdb-main-container.cbdb-masonry-layout a {
+    text-decoration: none;
+}
+.cbdb-masonry-item i {
+    margin-right: 5px;
+}
+/* Start Masonry Layout 1 CSS */
+.cbdb-masonry-layout-1 .cbdb-masonry-item {
+    background-color: #eee;
+    width: 31%;
+    margin-top: 0;
+    margin-right: 1%;
+    margin-bottom: 2%;
+    margin-left: 1%;
+}
+.cbdb-masonry-layout-1 .cbdb-masonry-image {
+    overflow: hidden;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cbdb-masonry-layout-1 .cbdb-masonry-wrapper {
+    width: 100%;
+    padding: 15px;
+}
+.cbdb-masonry-layout-1 .cbdb-title {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    margin: 5px 0;
+}
+.cbdb-masonry-layout-1 .cbdb-title a {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+}
+.cbdb-masonry-layout-1 .cbdb-description {
+    color: #4b4f58;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 5px 0;
+}
+.cbdb-masonry-layout-1 .cbdb-category a,
+.cbdb-masonry-layout-1 .cbdb-read-more {
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #0170b9;
+    padding-left: 5px;
+}
+.cbdb-masonry-layout-1 .cbdb-metadatabox {
+    margin-top: 5px;
+}
+.cbdb-masonry-layout-1 .cbdb-metadatabox div {
+    display: inline-block;
+    margin-right: 10px;
+}
+.cbdb-masonry-layout-1 .cbdb-category {
+    display: inline-block;
+}
+.cbdb-masonry-layout-1 .cbdb-metadatabox a,
+.cbdb-masonry-layout-1 .cbdb-meta,
+.cbdb-masonry-layout-1 .cbdb-date,
+.cbdb-masonry-layout-1 .cbdb-tags,
+.cbdb-masonry-layout-1 .cbdb-category {
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #0170b9;
+}
+.cbdb-masonry-layout-1 .cbdb-read-more:hover,
+.cbdb-masonry-layout-1 .cbdb-metadatabox a:hover {
+    color: #3a3a3a;
+}
+.cbdb-masonry-layout-1 .cbdb-social-share {
+    text-align: right;
+    padding-top: 5px;
+}
+.cbdb-masonry-layout-1 .cbdb-social-share a {
+    font-size: 14px;
+    width: 30px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+/* End Masonry Layout 1 CSS */
+
+/* Start Masonry Layout 2 CSS */
+.cbdb-masonry-layout-2 .cbdb-masonry-item {
+    background-color: #fff;
+    box-shadow: 1px 1px 8px 2px #eee;
+    width: 31%;
+    margin-top: 0;
+    margin-right: 1%;
+    margin-bottom: 2%;
+    margin-left: 1%;
+}
+.cbdb-masonry-layout-2 .cbdb-masonry-wrapper {
+    width: 100%;
+    padding: 15px;
+}
+.cbdb-masonry-layout-2 .cbdb-masonry-image {
+    overflow: hidden;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cbdb-masonry-layout-2 .cbdb-title {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    padding: 15px;
+}
+.cbdb-masonry-layout-2 .cbdb-title a {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+}
+.cbdb-masonry-layout-2 .cbdb-description {
+    color: #4b4f58;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 5px 0;
+}
+.cbdb-masonry-layout-2 .cbdb-category a,
+.cbdb-masonry-layout-2 .cbdb-read-more {
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #0170b9;
+    padding-left: 5px;
+}
+.cbdb-masonry-layout-2 .cbdb-metadatabox {
+    margin-top: 5px;
+}
+.cbdb-masonry-layout-2 .cbdb-metadatabox div {
+    display: inline-block;
+    margin-right: 10px;
+}
+.cbdb-masonry-layout-2 .cbdb-category {
+    display: inline-block;
+}
+.cbdb-masonry-layout-2 .cbdb-metadatabox a,
+.cbdb-masonry-layout-2 .cbdb-meta,
+.cbdb-masonry-layout-2 .cbdb-date,
+.cbdb-masonry-layout-2 .cbdb-tags,
+.cbdb-masonry-layout-2 .cbdb-category {
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #0170b9;
+}
+.cbdb-masonry-layout-2 .cbdb-read-more:hover,
+.cbdb-masonry-layout-2 .cbdb-metadatabox a:hover {
+    color: #3a3a3a;
+}
+.cbdb-masonry-layout-2 .cbdb-social-share {
+    text-align: right;
+    padding-top: 5px;
+}
+.cbdb-masonry-layout-2 .cbdb-social-share a {
+    font-size: 14px;
+    width: 30px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+/* End Masonry Layout 2 CSS */
+
+/* Media Queries */
+/* For mobile */
+@media only screen and (max-width: 767px) {
+    /* Start Masonry Layout 1 CSS */
+    .cbdb-masonry-layout-1 .cbdb-masonry-wrapper,
+    .cbdb-masonry-layout-1 .cbdb-masonry-item,
+    .cbdb-masonry-layout-1 .cbdb-social-share {
+        width: 100%;
+    }
+    .cbdb-masonry-layout-1 .cbdb-social-share {
+        text-align: left;
+    }
+    /* End Masonry Layout 1 CSS */
+
+    /* Start Masonry Layout 2 CSS */
+    .cbdb-masonry-layout-2 .cbdb-masonry-wrapper,
+    .cbdb-masonry-layout-2 .cbdb-masonry-item,
+    .cbdb-masonry-layout-2 .cbdb-social-share {
+        width: 100%;
+    }
+    .cbdb-masonry-layout-2 .cbdb-social-share {
+        text-align: left;
+    }
+    /* End Masonry Layout 2 CSS */
+}
+/* End Masonry CSS */
