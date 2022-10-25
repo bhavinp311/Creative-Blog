@@ -1,5 +1,5 @@
 === Creative Blog Designer Bundle for WordPress ===
-Contributors: techeshta
+Contributors: Bhavin Patel
 Tags: creative blog layouts for wordpress, plugin for blog showcase, custom blog presentation 
 Requires at least: 4.4
 Tested up to: 6.0.1
