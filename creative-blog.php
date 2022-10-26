@@ -21,7 +21,7 @@ define('CBDB_URL', plugins_url('/', __FILE__));  // Define Plugin URL.
 define('CBDB_DIR', plugin_dir_path(__FILE__));  // Define Plugin Directory Path.
 define('CBDB_TEXTDOMAIN', 'creative-blog');    // Define Plugin Textdomain.
 
-/**
+/**.
  * Plugin's main class.
  */
 class Creative_Blog {
